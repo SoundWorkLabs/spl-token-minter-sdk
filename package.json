@@ -1,0 +1,21 @@
+{
+	"name": "@jimii/token-test-sdk",
+	"version": "0.0.1",
+	"description": "",
+	"main": "./dist/main.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build:ts": "rm -rf ./dist && tsc",
+		"update-idl": "cp ../token-test/target/types/token_test.ts src/token-test/idl"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@coral-xyz/anchor": "^0.29.0",
+		"@solana/spl-token": "^0.4.6",
+		"@solana/web3.js": "^1.91.8"
+	}
+}
