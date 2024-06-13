@@ -9,7 +9,7 @@ _NOTE_ This is an UNPUBLISHED npm package. You have to build and install it loca
 1. Clone the sdk repo
 
 ```bash
-git clone https://github.com/jim4067/token-test-sdk
+git clone https://github.com/SoundWorkLabs/token-test-sdk
 ```
 
 2. Build the NPM project and pack it into a distributable format
